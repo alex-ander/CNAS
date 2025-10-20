@@ -218,6 +218,8 @@ def bash_command_template_single_exit(**kwargs):
     cfg['drift'] = kwargs['drift']
     cfg['n_classes'] = kwargs['n_classes']
 
+    
+
     execution_line = "python train.py".format(gpus)
     for k, v in cfg.items():
         if v is not None:
