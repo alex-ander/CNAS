@@ -138,11 +138,6 @@ data/
 # Checkpoints
 *.pth
 
-# Plug in repos
-EarlyExits/
-NasSearchSpace/
-Robustness/
-
 # exp folders
 results/
 err/
